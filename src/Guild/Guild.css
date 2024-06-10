@@ -1,0 +1,48 @@
+.guild-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.guild-card a {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.guild-card input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.guild-card .btn-guild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.btn-guild button {
+    border: 2px solid #44a7b5;
+    font-weight: bold;
+    border-radius: 40px;
+    color:#44a7b5;
+    width: 6rem;
+    padding: 4px;
+}
+
+.btn-guild button:hover {
+    border: 2px solid #44a7b5;
+    font-weight: bold;
+    border-radius: 40px;
+    color:#44a7b5;
+}

@@ -1,0 +1,78 @@
+.contact-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.contact-card a {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact-card .form-group {
+    margin-bottom: 1px;
+}
+
+.contact-card .form-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.contact-card input {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-select select {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-select .form-group {
+    flex: 1;
+}
+
+.so-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.so-contact .form-group {
+    flex: 1;
+  }
+  
+  .so-contact input {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .so-contact label {
+    display: block;
+    margin-bottom: 2px;
+  }

@@ -1,13 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Link
+} from "react-router-dom";
 import './index.css';
 import App from './App';
+import ProfliePage from './Pages/ProfliePage';
 import reportWebVitals from './reportWebVitals';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <div>
+        <h1>Hello API</h1>
+        <Link to="profile">Profile</Link>
+      </div>
+    ),
+  },
+  {
+    path: "profile",
+    element: <ProfliePage />,
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
